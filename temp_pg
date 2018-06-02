@@ -1,0 +1,2 @@
+#!/bin/bash  
+docker run -e POSTGRES_USER=meridio -e POSTGRES_PASSWORD=meridio -e POSTGRES_DB=meridio-dev  -p 5432:5432 postgres:10.4
